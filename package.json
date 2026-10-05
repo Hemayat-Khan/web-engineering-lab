@@ -1,0 +1,17 @@
+{
+  "name": "web-engineering-lab",
+  "version": "1.0.0",
+  "description": "Web Engineering Lab 01 project",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --check .",
+    "start": "serve public"
+  },
+  "keywords": [],
+  "author": "Hemayat Ur Rehman",
+  "license": "ISC",
+  "devDependencies": {
+    "serve": "^14.2.6"
+  }
+}
