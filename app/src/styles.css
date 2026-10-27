@@ -1,0 +1,9 @@
+/* Placeholder: replace with your Lab 5 stylesheet */
+body { font-family: system-ui, sans-serif; margin: 0; padding: 1rem 2rem; line-height: 1.5; }
+.text-muted { color: #555; }
+.span-all { grid-column: 1 / -1; }
+.skip-link { position: absolute; left: -999px; }
+.skip-link:focus { left: 1rem; top: 1rem; background: #fff; padding: .5rem; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #ccc; padding: .5rem; text-align: left; }
+tr.selected { background: #e0f0ff; }

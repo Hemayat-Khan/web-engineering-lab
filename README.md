@@ -1,42 +1,17 @@
-# Web Engineering Lab 01
+# Web Engineering Lab 06 (Tasks 1-7)
 
-## Objective
-Set up a Web Engineering development environment and create a first Node.js-based Web Engineering project.
+Run all commands from this folder (the one that contains `demo`).
 
-## Project Structure
+## Part A: rendering demo (no install needed, just Node.js)
+    node demo/build-static.mjs
+    node demo/server.mjs
+Then open http://localhost:3000 (stop with Ctrl+C).
 
-```text
-web-engineering-lab/
-├── public/
-│   ├── index.html
-│   ├── styles.css
-│   └── script.js
-├── tests/
-│   └── greet.test.js
-├── .gitignore
-├── eslint.config.js
-├── package.json
-├── package-lock.json
-└── README.md
-```
+## Part B: React app
+    cd app
+    npm install
+    npm run dev
+Open the URL it prints (http://localhost:5173).
 
-## Run the project
-
-```bash
-npm install
-npm start
-```
-
-Then open the localhost URL shown by `serve`.
-
-## Check the project
-
-```bash
-npm run lint
-npm run format
-node --test tests/greet.test.js
-```
-
-## GitHub
-
-Do not upload `node_modules/`. The `.gitignore` file excludes it.
+Note: public/styles.css is a placeholder. Replace it with your Lab 5
+stylesheet and copy it to app/src/styles.css.
